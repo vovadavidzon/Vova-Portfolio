@@ -37,7 +37,7 @@ function Footer() {
             </li>
           </ul>
           <div className="copyright">
-            <p>© 2024 V.D</p>
+            <p>© 2024 V.D project</p>
           </div>
         </div>
       </div>
