@@ -16,7 +16,7 @@ const Header = () => {
         <a
           href="Vladimir Davidzon CV.pdf"
           className="btn"
-          Download="Vladimir Davidzon CV.pdf"
+          download="Vladimir Davidzon CV.pdf"
         >
           Download CV
         </a>
