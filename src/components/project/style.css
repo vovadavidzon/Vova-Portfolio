@@ -1,14 +1,22 @@
 /* Projects  */
 
 .project {
-  max-width: 370px;
+  width: 370px;
   background-color: var(--project-card-bg);
   box-shadow: var(--box-shadow);
   border-radius: 10px;
+
+  object-fit: contain;
 }
 
 .project__img {
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  object-fit: contain;
+  height: 200px; /* Adjust the height as per your design */
+  width: 100%;
+  display: block; /* Remove any default inline styles */
+  margin: 0; /* Remove any default margin */
 }
 
 .project__title {

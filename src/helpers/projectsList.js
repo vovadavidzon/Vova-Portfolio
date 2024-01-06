@@ -1,31 +1,29 @@
-import project01 from "./../img//projects/01.jpg";
-import project02 from "./../img//projects/02.jpg";
-import project03 from "./../img//projects/03.jpg";
-import project01big from "./../img//projects/01-big.jpg";
-import project02big from "./../img//projects/02-big.jpg";
-import project03big from "./../img//projects/03-big.jpg";
+import aqua from "./../img//projects/aqua.jpg";
+import portfolio from "./../img//projects/portfoliovova.png";
+import travel from "./../img//projects/travel.png";
+import aquaMini from "./../img//projects/aquamini_640x364.jpg";
 
 const projects = [
   {
-    title: "Gaming streaming portal",
+    title: "Vova Portfolio",
     skills: "React",
-    img: project01,
-    imgBig: project01big,
-    gitHubLink: "https://github.com/",
+    img: portfolio,
+    imgBig: portfolio,
+    gitHubLink: "https://github.com/vovadavidzon",
   },
   {
-    title: "SQL database",
-    skills: "oracle sql",
-    img: project02,
-    imgBig: project02big,
-    gitHubLink: "https://github.com/",
+    title: "Aquarium",
+    skills: "java",
+    img: aquaMini,
+    imgBig: aqua,
+    gitHubLink: "https://github.com/vovadavidzon",
   },
   {
-    title: "Portfolio-Vova",
-    skills: "react",
-    img: project03,
-    imgBig: project03big,
-    gitHubLink: "https://github.com/",
+    title: "Travel-Agency",
+    skills: "JavaScript",
+    img: travel,
+    imgBig: travel,
+    gitHubLink: "https://github.com/vovadavidzon",
   },
 ];
 export { projects };
